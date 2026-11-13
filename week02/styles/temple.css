@@ -1,0 +1,107 @@
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Acme&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+    background-color: #f4f1ea;
+}
+
+header {
+    background-color: #1f3b73;
+    color: #fff;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header span {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+#menu-button {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+nav {
+    display: none;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav.open {
+    display: flex;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #222;
+}
+
+h1 {
+    font-size: 2.5rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: "Acme", Arial, sans-serif;
+    color: #1f3b73;
+}
+
+main {
+    margin: 1rem auto;
+    max-width: 960px;
+    padding: 0.5rem;
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 1rem;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-gap: 25px;
+    place-items: center;
+}
+
+figure {
+    background-color: #fff;
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 230px;
+    height: auto;
+}
+
+figcaption {
+    font-size: smaller;
+    padding: 0.3rem;
+    color: #49006b;
+}
+
+figure:hover {
+    box-shadow: 0 0 20px #777;
+}
+
+footer {
+    background-color: #1f3b73;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
