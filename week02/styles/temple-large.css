@@ -16,8 +16,8 @@
         flex-direction: row;
     }
     .temple-grid {
-    display: grid !important;
-    grid-template-columns: repeat(3, 1fr) !important;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
     nav a {
