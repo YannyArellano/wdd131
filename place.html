@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Alexander Arellano">
+    <meta name="description" content="Otavalo, Ecuador: key facts and current weather">
+    <title>Otavalo, Ecuador</title>
+    <link rel="icon" href="images/icon.png" type="image/png">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">
+    <script src="scripts/place.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Otavalo, Ecuador</h1>
+    </header>
+    <main>
+        <picture class="hero">
+            <source media="(min-width: 700px)" srcset="images/lake.webp" width="1400" height="700">
+            <img src="images/otavalo.webp" alt="Lake San Pablo with Imbabura volcano" width="640" height="480">
+        </picture>
+        <section class="data" aria-labelledby="data-heading">
+            <ul>
+                <li><strong>Area:</strong>579 km²</li>
+                <li><strong>Population:</strong>About 125,000</li>
+                <li><strong>Elevation:</strong>2,565 m above sea leve</li>
+                <li><strong>Founded</strong>June 25, 1824</li>
+                <li><strong>Famous for</strong> Indigenous culture, traditional textiles, and the Plaza de Ponchos market</li>
+                <li><strong>Best season</strong>June to September, generally drier months</li>
+            </ul>
+        </section>
+    <section class="weather" aria-labelledby="weather-heading">
+        <h2 class="weather">Weather</h2>
+        <img class="weather-icon" src="images/weather.webp" alt="Partly clody" width="400" height="200">
+        <ul>
+        <li><strong>Temperature:</strong> <span id="temp">16</span>°C</li>
+        <li><strong>Conditions:</strong> Partly cloudy</li>
+        <li><strong>Wind:</strong> <span id="wind">10</span> km/h</li>
+        <li><strong>Wind chill:</strong> <span id="chill">N/A</span></li>
+      </ul>
+    </section>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | Alexander Arellano | Otavalo, Ecuador</p>
+        <p>Last modified: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>
